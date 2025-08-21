@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+vly-app/node_modules/
+linkedin-oauth-test/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.prod
+*.env
+
+# Build outputs
+dist/
+build/
+vly-app/dist/
+linkedin-oauth-test/dist/
+
+# Convex generated files
+vly-app/convex/_generated/
+linkedin-oauth-test/convex/_generated/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Test files
+test_*.js
+test_*.html
