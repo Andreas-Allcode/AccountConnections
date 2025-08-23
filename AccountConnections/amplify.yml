@@ -5,7 +5,7 @@ frontend:
       commands:
         - cd vly-app
         - nvm use 20
-        - npm ci
+        - npm install
     build:
       commands:
         - cd vly-app
