@@ -29,7 +29,7 @@ export const handleLinkedInCallbackDebug = action({
       throw new Error(`Missing environment variables: ${missingVars.join(", ")}`);
     }
 
-    const redirectUri = new URL("/", siteUrl).toString();
+    const redirectUri = new URL("/linkedin-callback", siteUrl).toString();
     
     console.log("=== REQUEST PARAMETERS DEBUG ===");
     console.log("Authorization code:", args.code);
